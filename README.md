@@ -1,4 +1,4 @@
-Simplest snake game realization.
+The simplest implementation of the snake game.
 
 # Installation
 ```commandline
