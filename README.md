@@ -1,5 +1,7 @@
 The simplest implementation of the snake game.
 
+It isn't framework-locked and you can reuse `snake_util.SnakeBody` class as you wish.
+
 # Installation
 ```commandline
 $ python -m venv .venv
