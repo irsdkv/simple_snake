@@ -1,6 +1,14 @@
-The simplest implementation of the snake game.
+# Snake
 
-It isn't framework-locked and you can reuse `snake_util.SnakeBody` class as you wish.
+![](data/snake.gif)
+
+The simplest implementation of the snake game.
+It isn't framework-depended and you can reuse `snake_util.SnakeBody` class as you wish.
+
+# Controls
+* Direction: `WASD` + arrow keys
+* Pause: `Spacebar`
+* Speed Up/Down: `PgUp`/`PgDn`
 
 # Installation
 ```commandline
@@ -19,19 +27,9 @@ $ python snake_game.py
 # Settings
 See `data/snake.toml`
 
-# Controls
-* Direction: `WASD` + arrow keys
-* Pause: `Spacebar`
-* Speed Up/Down: `PgUp`/`PgDn`
-
-# Screenshot
-
-![](data/simple_snake.png.png)
-
-
-
-Thanks RahulShagri an his https://github.com/RahulShagri/OG-Snake-Game for inspiration
-
 
 # License
 MIT License
+
+# Thanks 
+to RahulShagri an his https://github.com/RahulShagri/OG-Snake-Game for inspiration
