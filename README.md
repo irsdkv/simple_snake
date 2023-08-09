@@ -3,6 +3,7 @@
 ![](data/snake.gif)
 
 The simplest implementation of the snake game.
+
 It isn't framework-depended and you can reuse `snake_util.SnakeBody` class as you wish.
 
 # Controls
