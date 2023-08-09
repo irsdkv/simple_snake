@@ -1,10 +1,11 @@
 # Snake
 
-![](data/snake.gif)
+![](data/simple_snake.gif)
 
 The simplest implementation of the snake game.
 
-It isn't framework-depended and you can reuse `snake_util.SnakeBody` class as you wish.
+DearPyGui library used for visualization but logic isn't framework-depended and you can reuse `snake_util.SnakeBody` 
+class as you wish.
 
 # Controls
 * Direction: `WASD` + arrow keys
