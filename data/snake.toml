@@ -1,0 +1,6 @@
+score_max = 77
+speed = 6.833333333333333
+speed_num = 14
+snake_can_grow = true
+through_walls = true
+garden_size = 25
