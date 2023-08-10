@@ -175,9 +175,9 @@ class SnakeBody:
 
             if not self._is_wall_impenetrable:
                 segment_updated = segment_updated % self._max
-            elif not (segment_updated <= self._max) or \
-                    segment_updated <= Position(self._max.x, -1) or \
-                    segment_updated <= Position(-1, self._max.y):
+            elif not (segment_updated < self._max) or \
+                    segment_updated < Position(self._max.x, 0) or \
+                    segment_updated < Position(0, self._max.y):
                 self._wall_bite_callback(self, segment_updated)
                 return
 
