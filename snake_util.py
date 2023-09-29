@@ -47,7 +47,7 @@ class Position:
 
     @x.setter
     def x(self, x):
-        self.move(x - self.x, self.y)
+        self._x = x
 
     @property
     def y(self):
@@ -55,7 +55,7 @@ class Position:
 
     @y.setter
     def y(self, y):
-        self.move(self.x, y - self.y)
+        self._y = y
 
     def move(self, x=0, y=0, angle_rad=None, from_initial=True):
         if not from_initial:
